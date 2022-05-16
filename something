@@ -1,0 +1,24 @@
+# Test result
+
+## Metrics
+
+- 0 Errors
+- 2 Warnings
+- 0 Analyzer warnings
+- 398 Tests
+- 1 Failed tests
+- 0 Skipped tests
+- 29.11% Code coverage
+
+## Test failures
+
+|Test case                                                           |Message                                                      |
+|--------------------------------------------------------------------|-------------------------------------------------------------|
+|:heavy_exclamation_mark: CurrencyFormatterTests.testEuroDigitsCode()|XCTAssertEqual failed: ("€99.00") is not equal to ("€99.090")|
+
+## Warning failures
+
+|Type             |Message                                                                                                                                                                                                                                                                                                                                                                                                                |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:warning: Warning|Ignoring file /Users/amnell/code/Ikano/iPay/ios-platform/IkeaPayLoan/fastlane/builds/derivedData/Build/Products/Debug_Dev-iphonesimulator/TransaktSDK.framework/TransaktSDK, file is universal (i386,x86_64) but does not contain the arm64 architecture: /Users/amnell/code/Ikano/iPay/ios-platform/IkeaPayLoan/fastlane/builds/derivedData/Build/Products/Debug_Dev-iphonesimulator/TransaktSDK.framework/TransaktSDK|
+|:warning: Warning|Method '-motionEnded:withEvent:' in category from /Users/amnell/code/Ikano/iPay/ios-platform/IkeaPayLoan/fastlane/builds/derivedData/Build/Products/Debug_Dev-iphonesimulator/IKHAAPIKit.o conflicts with same method from another category                                                                                                                                                                            |
